@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-container{
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.header-container a{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Sono', sans-serif;
+    color: #828282;
+}
+.header-container a:first-child{
+    font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+.header-container a{
+    font-size: 18px;
+line-height: 22px;
+color: #828282;
+}
+.main{
+    text-align: center;
+}
+.main-container{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-family: 'Sono', sans-serif;
+font-size: 47.3392px;
+line-height: 59px;
+color: #070707;
+}
+.text{
+    font-family: 'Sono', sans-serif;
+    font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+.text-2{
+    font-family: 'Sono', sans-serif;
+    font-size: 18px;
+line-height: 22px;
+}
+.about{
+    width: 1445px;
+    height: 506px;
+    margin-top: 104px;
+    text-align: center;
+    background-color: #F6F6F6;
+    font-family: 'Sono', sans-serif;
+}
+.about h1{
+    font-size: 34px;
+    padding-top: 120px;
+}
+.about p{
+    font-size: 18px;
+    padding-top: 17px;
+}
+.title-2{
+    margin-top: 198px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    font-family: 'Sono', sans-serif;
+}
+.text-3{
+    margin-top: 69px;
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.block{
+    display: flex;
+    margin-top: 83px;
+    margin-left: 294px;
+    gap: 168px;
+}
+.inner-block{  
+    width: 89.21px;
+    height: 88.57px;  
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+.inner-block:nth-child(1){
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+.inner-block:nth-child(2){
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+.inner-block:nth-child(3){
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+.portfolio{
+    margin-top: 178px;
+    height: 2253px;
+    width: 1445px;
+    text-align: center;
+    background-color: #F6F6F6;
+    color: #070707;
+    font-family: 'Sono', sans-serif;
+}
+.title-3{
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 113px;
+}
+.portfolio-text{
+    padding-top: 45px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.portfolio-container hr{
+    margin: 0 auto;
+    width: 341px;
+}
+.portfolio-container img{
+    padding-top: 47px;
+}
+.portfolio-container2 img{
+    padding-top: 99px;
+}
+.portfolio-container2 hr{
+    margin: 0 auto;
+    width: 240px;
+}
+.portfolio-container3 img{
+    padding-top: 99px;
+}
+.portfolio-text2{
+    padding-top: 46px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.portfolio-container3 hr{
+    margin: 0 auto;
+    width: 310px;
+}
+.contacts-container{
+    margin-top: 114px;
+    text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    background-color: #FFFFFF;
+    color: #070707;
+    font-family: 'Sono', sans-serif;
+}
+.title2{
+font-size: 34px;
+line-height: 42px;
+}
+.contacts-text{
+    padding-top: 20px;
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+.contacts-button{
+    height: 38px;
+width: 166px;
+border-radius: 20px;
+color: white;
+background-color: #070707;
+font-size: 18px;
+line-height: 22px;
+margin-top: 20px;
+font-family: 'Sono', sans-serif;
+}
+.contacts-button:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: #070707;
+}
+.contacts-container img{
+    padding-top: 79px;
+    padding-right: 60px;
+}
+.contacts-text3{
+    padding-top: 46px;
+font-size: 14px;
+line-height: 17px;
+    color: #828282;
+}
